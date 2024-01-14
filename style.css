@@ -128,7 +128,8 @@ main {
     top: 48%;
     left: 3rem;
     transform: translateY(-50%);
-    font: 400 0.85rem;
+    font: 400 0.65rem;
+    font-size: medium;
     font-family: 'Poppins', sans-serif;
     font-family: 'Tektur', sans-serif;
     color: white;
