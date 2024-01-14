@@ -115,7 +115,6 @@ main {
 
 .content {
     width: min(45vw, 400px);
-    max-height: 450px;
     position: absolute;
     border: 2px solid transparent;
     background: rgba(255, 255, 255, 0.1);
@@ -125,11 +124,10 @@ main {
     border-radius: 20px;
     text-align: center;
     padding: 10px;
-    top: 48%;
+    top: 50%;
     left: 3rem;
     transform: translateY(-50%);
-    font: 400 0.65rem;
-    font-size: medium;
+    font: 400 0.85rem;
     font-family: 'Poppins', sans-serif;
     font-family: 'Tektur', sans-serif;
     color: white;
@@ -179,11 +177,12 @@ main {
 
 .nav {
     position: absolute;
-    bottom: 4rem;
-    left: 50%;
+    bottom: 2rem;
+    left: 72%;
     transform: translateX(-50%);
     z-index: 5;
     user-select: none;
+    top: 80%;
 
     & .btn {
         background-color: rgba(255, 255, 255, 0.5);
@@ -247,7 +246,7 @@ main {
         }
 
         & .description {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
 
         & button {
@@ -341,4 +340,3 @@ main {
     transform: translateY(10px);
     transition: 100ms;
 }
-
